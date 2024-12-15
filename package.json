@@ -1,7 +1,13 @@
-{
+{ 
+  "engines": {
+    "node": "20.x "
+  },
   "type": "module",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.2"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
